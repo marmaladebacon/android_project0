@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/textView"
+        android:textSize="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        style="@style/BtnOrange"
+        android:text="@string/btn_spot"
+        android:id="@+id/btn_spot"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    <Button
+        style="@style/BtnOrange"
+        android:text="@string/btn_scores"
+        android:id="@+id/btn_scores"
+        android:layout_below="@+id/btn_spot"
+        android:layout_centerHorizontal="true" />
+    <Button
+        style="@style/BtnOrange"
+        android:text="@string/btn_library"
+        android:id="@+id/btn_library"
+        android:layout_below="@+id/btn_scores"
+        android:layout_centerHorizontal="true" />
+    <Button
+        style="@style/BtnOrange"
+        android:text="@string/btn_bib"
+        android:id="@+id/btn_bib"
+        android:layout_below="@+id/btn_library"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/BtnOrange"
+        android:text="@string/btn_xyz"
+        android:id="@+id/btn_xyz"
+        android:layout_below="@+id/btn_bib"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/BtnCapstone"
+        android:text="@string/btn_capstone"
+        android:id="@+id/btn_capstone"
+        android:layout_below="@+id/btn_xyz"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
